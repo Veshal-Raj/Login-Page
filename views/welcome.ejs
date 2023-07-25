@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      background-image:url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 70vh  ;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 200px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <p>You have successfully logged in.</p>
+
+  <form action="/logout" method="post">
+    <button type="submit">Logout</button>
+  </form>
+</body>
+</html>
